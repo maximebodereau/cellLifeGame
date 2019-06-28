@@ -6,8 +6,8 @@ class mainScene {
         // This method is called once at the beginning
         // It will load all the assets, like sprites and sounds  
         // Parameters: name of the sprite, path of the image
-        this.load.image('player', 'assets/bird.png');
-        this.load.image('coin', 'assets/pipe.png');
+        this.load.image('player', './assets/bird.png');
+        this.load.image('coin', './assets/pipe.png');
     }
     create() {
         // This method is called once, just after preload()
